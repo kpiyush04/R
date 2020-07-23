@@ -25,3 +25,16 @@ Returns:    NONE
 Prints:
 
     The function must print the appropriate response for each value i in the set {1, 2, ... n} in ascending order, each on a separate line.
+##### Constraints
+
+0 < n < 2 × 10^5
+
+Explanation
+
+The numbers 3, 6, 9, and 12 are multiples of 3 (but not 5), so print Fizz on those lines.
+
+The numbers 5 and 10 are multiples of 5 (but not 3), so print Buzz on those lines.
+
+The number 15 is a multiple of both 3 and 5, so print FizzBuzz on that line.
+
+None of the other values is a multiple of either 3 or 5, so print the value of i on those lines.
